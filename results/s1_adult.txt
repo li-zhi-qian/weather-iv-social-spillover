@@ -1,0 +1,25 @@
+                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     tickets_adult_wk1d_r   R-squared:                       0.011
+Model:                              OLS   Adj. R-squared:                  0.010
+Method:                   Least Squares   F-statistic:                     20.50
+Date:                  Thu, 26 Sep 2024   Prob (F-statistic):           6.41e-06
+Time:                          09:22:50   Log-Likelihood:                -2441.7
+No. Observations:                  1629   AIC:                             4887.
+Df Residuals:                      1627   BIC:                             4898.
+Df Model:                             1                                         
+Covariance Type:                cluster                                         
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                      0.0185      0.027      0.688      0.491      -0.034       0.071
+open_res_own_mat5_75_0    -2.0663      0.456     -4.527      0.000      -2.961      -1.172
+==============================================================================
+Omnibus:                      612.656   Durbin-Watson:                   0.923
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5224.065
+Skew:                           1.520   Prob(JB):                         0.00
+Kurtosis:                      11.230   Cond. No.                         18.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

@@ -1,0 +1,25 @@
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     tickets_ratedgpg_wk1d_r   R-squared:                       0.021
+Model:                                 OLS   Adj. R-squared:                  0.020
+Method:                      Least Squares   F-statistic:                     12.60
+Date:                     Thu, 26 Sep 2024   Prob (F-statistic):           0.000408
+Time:                             09:35:18   Log-Likelihood:                -998.64
+No. Observations:                      802   AIC:                             2001.
+Df Residuals:                          800   BIC:                             2011.
+Df Model:                                1                                         
+Covariance Type:                   cluster                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                     0.0228      0.030      0.771      0.441      -0.035       0.081
+open_res_own_prec_0_6    -1.7959      0.506     -3.549      0.000      -2.787      -0.804
+==============================================================================
+Omnibus:                      111.935   Durbin-Watson:                   0.697
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              217.569
+Skew:                           0.830   Prob(JB):                     5.70e-48
+Kurtosis:                       4.938   Cond. No.                         14.5
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
