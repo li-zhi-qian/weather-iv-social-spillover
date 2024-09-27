@@ -3,8 +3,8 @@
 Dep. Variable:     tickets_adult_wk1d_r   R-squared:                       0.011
 Model:                              OLS   Adj. R-squared:                  0.010
 Method:                   Least Squares   F-statistic:                     20.50
-Date:                  Thu, 26 Sep 2024   Prob (F-statistic):           6.41e-06
-Time:                          09:22:50   Log-Likelihood:                -2441.7
+Date:                  Fri, 27 Sep 2024   Prob (F-statistic):           6.41e-06
+Time:                          12:46:48   Log-Likelihood:                -2441.7
 No. Observations:                  1629   AIC:                             4887.
 Df Residuals:                      1627   BIC:                             4898.
 Df Model:                             1                                         
