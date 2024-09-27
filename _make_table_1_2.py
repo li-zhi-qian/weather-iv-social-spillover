@@ -197,7 +197,7 @@ if __name__ == "__main__":
         "tickets_hs": "hand_select",
     }
     outcome = "tickets"  # TODO: set dependent variable
-    hand_select = "_hs"  # TODO: "_hs" or "" hand selected or not
+    hand_select = ""  # TODO: "_hs" or "" hand selected or not
     selected_instruments = [
         instrument_dict[outcome + hand_select]
     ]  # set instruments["open_res_own_mat_la_cens_6"] #open_res_own_prec_0_6 "open_res_own_mat5_75_0"
