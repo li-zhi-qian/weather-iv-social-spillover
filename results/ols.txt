@@ -1,0 +1,126 @@
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         tickets_wk2d_r   R-squared:                       0.660
+Model:                            OLS   Adj. R-squared:                  0.660
+Method:                 Least Squares   F-statistic:                     3245.
+Date:                Fri, 27 Sep 2024   Prob (F-statistic):               0.00
+Time:                        13:07:23   Log-Likelihood:                -585.53
+No. Observations:                1671   AIC:                             1175.
+Df Residuals:                    1669   BIC:                             1186.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0016      0.008     -0.191      0.849      -0.018       0.015
+tickets_wk1d_r     0.4199      0.007     56.965      0.000       0.405       0.434
+==============================================================================
+Omnibus:                      275.166   Durbin-Watson:                   1.394
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4908.662
+Skew:                          -0.088   Prob(JB):                         0.00
+Kurtosis:                      11.395   Cond. No.                         1.14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         tickets_wk3d_r   R-squared:                       0.501
+Model:                            OLS   Adj. R-squared:                  0.501
+Method:                 Least Squares   F-statistic:                     1677.
+Date:                Fri, 27 Sep 2024   Prob (F-statistic):          2.29e-254
+Time:                        13:07:23   Log-Likelihood:                -175.44
+No. Observations:                1671   AIC:                             354.9
+Df Residuals:                    1669   BIC:                             365.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0009      0.007     -0.137      0.891      -0.014       0.012
+tickets_wk1d_r     0.2362      0.006     40.952      0.000       0.225       0.247
+==============================================================================
+Omnibus:                      226.404   Durbin-Watson:                   1.171
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2540.377
+Skew:                           0.159   Prob(JB):                         0.00
+Kurtosis:                       9.032   Cond. No.                         1.14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         tickets_wk4d_r   R-squared:                       0.379
+Model:                            OLS   Adj. R-squared:                  0.378
+Method:                 Least Squares   F-statistic:                     1017.
+Date:                Fri, 27 Sep 2024   Prob (F-statistic):          1.19e-174
+Time:                        13:07:23   Log-Likelihood:                 243.50
+No. Observations:                1671   AIC:                            -483.0
+Df Residuals:                    1669   BIC:                            -472.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0005      0.005     -0.107      0.915      -0.011       0.009
+tickets_wk1d_r     0.1431      0.004     31.888      0.000       0.134       0.152
+==============================================================================
+Omnibus:                      368.183   Durbin-Watson:                   1.094
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2333.236
+Skew:                           0.874   Prob(JB):                         0.00
+Kurtosis:                       8.519   Cond. No.                         1.14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         tickets_wk5d_r   R-squared:                       0.308
+Model:                            OLS   Adj. R-squared:                  0.307
+Method:                 Least Squares   F-statistic:                     742.1
+Date:                Fri, 27 Sep 2024   Prob (F-statistic):          1.69e-135
+Time:                        13:07:23   Log-Likelihood:                 761.88
+No. Observations:                1671   AIC:                            -1520.
+Df Residuals:                    1669   BIC:                            -1509.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0003      0.004     -0.091      0.927      -0.008       0.007
+tickets_wk1d_r     0.0896      0.003     27.241      0.000       0.083       0.096
+==============================================================================
+Omnibus:                      534.566   Durbin-Watson:                   0.933
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4485.288
+Skew:                           1.254   Prob(JB):                         0.00
+Kurtosis:                      10.624   Cond. No.                         1.14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         tickets_wk6d_r   R-squared:                       0.261
+Model:                            OLS   Adj. R-squared:                  0.260
+Method:                 Least Squares   F-statistic:                     588.8
+Date:                Fri, 27 Sep 2024   Prob (F-statistic):          1.20e-111
+Time:                        13:07:23   Log-Likelihood:                 1179.7
+No. Observations:                1671   AIC:                            -2355.
+Df Residuals:                    1669   BIC:                            -2345.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0002      0.003     -0.081      0.935      -0.006       0.005
+tickets_wk1d_r     0.0622      0.003     24.264      0.000       0.057       0.067
+==============================================================================
+Omnibus:                      924.939   Durbin-Watson:                   0.906
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            20479.536
+Skew:                           2.121   Prob(JB):                         0.00
+Kurtosis:                      19.617   Cond. No.                         1.14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

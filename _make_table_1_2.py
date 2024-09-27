@@ -136,6 +136,7 @@ def ols():
     ols_sd = []
     ols_r2 = []
     models_ols = []
+    model_summary = ""
     for i in range(2, 7):
         filtered_data = data[data[f"wk{i}"] == 1]
         X = filtered_data[outcome + "_wk1d_r"]
@@ -156,16 +157,17 @@ def ols():
 
         ols_r2.append(r2_score(y, model.predict(X)))
         models_ols.append(model)
-
+        model_summary+="\n"
+        model_summary+=str(model.summary())
     results_df = pd.DataFrame(
         {
-            "Week": list(range(2, 7)) + [-1],
+            "Week": list(range(2, 7)),
             "Coefficient": ols_coef,
             "sd(clustered)": ols_sd,
             "R2": ols_r2,
         }
     )
-    return results_df, models_ols
+    return results_df, models_ols,model_summary
 
 
 def save_as(obj, name: str):
@@ -197,7 +199,7 @@ if __name__ == "__main__":
         "tickets_hs": "hand_select",
     }
     outcome = "tickets"  # TODO: set dependent variable
-    hand_select = ""  # TODO: "_hs" or "" hand selected or not
+    hand_select = "_hs"  # TODO: "_hs" or "" hand selected or not
     selected_instruments = [
         instrument_dict[outcome + hand_select]
     ]  # set instruments["open_res_own_mat_la_cens_6"] #open_res_own_prec_0_6 "open_res_own_mat5_75_0"
@@ -221,3 +223,8 @@ if __name__ == "__main__":
     save_as(results, "s2_" + comments)
     save_as(model_list, "s2_" + comments)
     save_as(summary, "s2_" + comments)
+
+    results, model_list, summary =ols()
+    save_as(results, "ols" )
+    save_as(model_list, "ols" )
+    save_as(summary, "ols" )
